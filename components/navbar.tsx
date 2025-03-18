@@ -4,8 +4,7 @@ import Link from 'next/link';
 
 /* sticky top-0 z-50 (Colocar depois na Div para deixar ela presa na tela)*/
 
-type Props = {}
-export default function Navbar({}: Props) {
+export default function Navbar() {
     return (
         <div className='flex flex-col justify-center items-center py-3 gap-12 '>
             <Image src="./logo.svg" alt="Logo" width={100} height={100} className='invert' />
