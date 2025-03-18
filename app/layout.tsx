@@ -12,6 +12,9 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Sistema do Grupamento de Apoio Rápido - SPEED",
   description: "Sistema de controle do Grupamento de Apoio Rápido - SPEED",
+  icons: {
+    shortcut: "/logo.svg",
+  },
 };
 
 export default function RootLayout({
