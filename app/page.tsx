@@ -6,9 +6,10 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
+      <div className="flex flex-col max-w-[100%] h-screen gap-32">
       <Navbar />
 
-      <div className="flex flex-col justify-center items-center max-w-[50%] m-auto gap-4 h-dvh">
+      <div className="flex flex-col justify-center items-center max-w-[50%] m-auto gap-4">
         <h1 className="font-extrabold text-2xl">Grupamento de Apoio rápido - SPEED</h1>
         <Image src="/logo.svg" alt="Logo" width={350} height={350} className="invert" />
         
@@ -31,7 +32,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col justify-center items-center max-w-[50%] m-auto gap-4 h-dvh">
+      <div className="flex flex-col justify-center items-center max-w-[50%] m-auto gap-4">
         <h2 className="font-extrabold text-xl">Vantagens de se tornar um piloto SPEED</h2>
         <ul className="list-disc p-4">
           <li>Veículo de alta performace exclusivo (Cayman GT);</li>
@@ -49,7 +50,7 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="flex flex-col justify-center items-center max-w-[50%] m-auto gap-4 h-dvh">
+      <div className="flex flex-col justify-center items-center max-w-[50%] m-auto gap-4">
         <h2 className="font-extrabold text-xl">Requisitos para se tornar um piloto SPEED</h2>
         <ul className="list-disc p-4">
           <li>Possuir a patente de Aluno / 3° Agente +;</li>
@@ -68,7 +69,7 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="flex flex-col justify-center items-center max-w-[50%] m-auto gap-4 h-dvh">
+      <div className="flex flex-col justify-center items-center max-w-[50%] m-auto gap-4">
         <h2 className="font-extrabold text-xl">Como se tornar um piloto SPEED?</h2>
         <p>
           Para se tornar um piloto SPEED, o oficial membro deverá seguir os seguintes passos:
@@ -83,6 +84,7 @@ export default function Home() {
         <p>
           Após a conclusão de todas as etapas, o oficial membro será avaliado e, caso aprovado, será integrado a SPEED.
         </p>
+      </div>
       </div>
     </>
   );
