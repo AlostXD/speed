@@ -9,13 +9,13 @@ export default function Home() {
     <>
       <div className="flex flex-col max-w-[100%] h-screen gap-32">
         <Navbar />
-        <div className="flex flex-col justify-center items-center max-w-[50%] m-auto gap-4">
+        <div className="flex flex-col justify-center items-center max-w-[100%] m-auto gap-4">
           <h1 className="font-extrabold text-2xl">Grupamento de Apoio rápido - SPEED</h1>
           <Image src="/logo.svg" alt="Logo" width={350} height={350} className="invert" />
           <div className="flex flex-col justify-center items-center gap-4 text-center">
             <h2 className="font-extrabold text-xl">O que é a SPEED e sua função?</h2>
-            <div className="div">
-              <Image src="/bg-speed-2.png" alt="SPEED" width={800} height={450} className="rounded-xl" />
+            <div className="relative w-[60%] h-[550px] m-auto">
+              <Image src="/speed2.png" alt="SPEED" fill className="rounded-xl object-cover" />
             </div>
             <p>
             A SPEED é um grupamento de apoio rápido, que tem como objetivo auxiliar tanto a população da cidade
@@ -38,7 +38,7 @@ export default function Home() {
           <h2 className="font-extrabold text-xl">Vantagens de se tornar um piloto SPEED</h2>
           <ul className="list-disc p-4">
             <li>Veículo de alta performace exclusivo (Cayman GT);</li>
-            <li>Armamento M4A1 liberado para qualquer um que entrar (Alunos/3°Agentes inclusos);</li>
+            <li>Armamento M4A1 e SKORPION V61 liberado para qualquer um que entrar (Alunos/3°Agentes inclusos);</li>
             <li>Fardamento da SPEED;</li>
             <li>Prioridade em acompanhamentos de 4 rodas e veículos de alta performace/importados;</li>
             <li>Treinamentos semanais para teste e melhora de pilotagem;</li>
@@ -71,8 +71,12 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="flex flex-col justify-center items-center max-w-[50%] m-auto gap-4">
+        <div className="flex flex-col justify-center items-center max-w-[100%] m-auto gap-4">
           <h2 className="font-extrabold text-xl">Como se tornar um piloto SPEED?</h2>
+          
+          <div className="relative w-[100%] h-[550px]">
+            <Image src="/bg-speed-2.png" alt="SPEED" fill className="rounded-xl object-cover" />
+          </div>
           <p>
             Para se tornar um piloto SPEED, o oficial membro deverá seguir os seguintes passos:
           </p>

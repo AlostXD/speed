@@ -8,8 +8,10 @@ export default function Home() {
   return (
     <>
       <Navbar />
-        <div className="flex flex-col items-center justify-center h-full gap-12 p-12">
-          <Image src="/bg-speed-3.png" alt="logo" width={1000} height={450} className="rounded-xl" />
+        <div className="flex flex-col items-center justify-center h-full gap-12 p-12 w-full m-auto">
+          <div className="relative w-[100%] h-[550px]">
+            <Image src="/bg-speed-3.png" alt="SPEED" fill className="rounded-xl object-cover" />
+          </div>
           <h1 className="text-4xl font-bold">Edital</h1>
           <div className="">
             <p>Neste aba iremos explicar o procedimento para estar adentrando a guarnição de apoio rápido...</p>
