@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Navbar from "../../components/navbar";
+import Footer from "../../components/footer";
 
 
 export default function Manual() {
@@ -100,7 +101,7 @@ export default function Manual() {
           </p>
         </div>
 
-        <div className="flex flex-col justify-center items-center gap-12 border-b-2 p-4 w-full">
+        <div className="flex flex-col justify-center items-center gap-12 p-4 w-full">
           <h2 className="text-3xl font-extrabold">Tabela numérica</h2>
           <p>A tabela dos códigos de patrulha, juntamente com os códigos Q, já são suficiente para uma modulação eficiente. Ambos possuem o mesmo intuito de facilitar a comunicação e auxiliar os oficiais. Agora, vamos pegar o Alfabeto fonético e, logo em seguida, a tabela numérica.</p>
           <div className="">
@@ -108,6 +109,8 @@ export default function Manual() {
             <Image src="/numerica2.png" alt="Logo" width={500} height={500} className="" />
           </div>
         </div>
+        
+        <Footer />
       </div>
     </>
   );
