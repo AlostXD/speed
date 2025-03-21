@@ -51,10 +51,9 @@ export default function Manual() {
           </ul>
           <ul className="flex flex-col justify-center items-center gap-4 border-b-2 p-4 w-full">
             <h3 className="text-2xl font-bold">Patrulha</h3>
-            <li>Só é permitido a utilização de uma Speed e uma Mike a cada 2 Viaturas 4-portas em Código 0 (2 viaturas = 1 speed e 1 Mike)</li>
             <li>Tenha o bom senso que não é somente você que está no acompanhamento</li>
             <li>É permitido a utilização da Speed para realizar abordagens somente havendo alguma viatura para estar auxiliando-a. Sempre peça QRR na rádio solicitando uma 4 portas ou alguma outra unidade para iniciar a abordagem.</li>
-            <li>Sempre que possível e estiver em patrulha com a SPEED ou MIKE, Utilizar o uniforme da respectiva área. (Passível de ADV)</li>
+            <li>Sempre que possível e estiver em patrulha com a SPEED, Utilizar o uniforme da respectiva área. (Passível de ADV)</li>
           </ul>
         </div>
 
