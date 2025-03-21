@@ -1,4 +1,4 @@
-/*import prisma from '@/app/prisma'
+import prisma from '@/app/prisma'
 
 
 export async function GET(request: Request) {
@@ -14,4 +14,4 @@ export async function GET(request: Request) {
     return new Response(JSON.stringify({ nome, id, gameId, unidade, cargo, numero }), {
         headers: { 'Content-Type': 'application/json' },
     });
-}*/
+}
