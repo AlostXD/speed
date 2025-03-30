@@ -9,13 +9,23 @@ export default async function Oficiais() {
     },
   });
 
+  interface DataType {
+    id: number;
+    name: string;
+    cargo: string;
+    gameId: number;
+    numero: string;
+    unidade: string;
+    image: string | null;
+  }
+
 return (
   <>
     <Navbar />
     <div className="flex flex-col items-center justify-center w-full m-auto gap-12 p-12">
     <h1 className="text-4xl font-extrabold">Comandos Speed</h1>
     <div className="flex items-center justify-center gap-12 p-12">
-      {data.map((data: any) => (
+      {data.map((data: DataType) => (
         <div
           key={data.id}
           className="group relative w-80 h-[500px] overflow-hidden rounded-xl shadow-lg"
