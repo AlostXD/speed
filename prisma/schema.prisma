@@ -20,6 +20,6 @@ model Oficiais {
   unidade   String
   cargo     String
   numero    String
-  image     String?
+  image     String
   createdAt DateTime @default(now())
 }
