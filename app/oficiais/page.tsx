@@ -21,10 +21,10 @@ return (
           key={data.id}
           className="group relative w-80 h-[500px] overflow-hidden rounded-xl shadow-lg"
         >
-          {/* Foto do Oficial */}
+          {/* Foto do Oficial 
           <div className="absolute inset-0 bg-cover bg-center transition-transform duration-300 group-hover:translate-x-[-100%]"
             style={{ backgroundImage: `url(${data.image})` }}
-          ></div>
+          ></div>*/}
 
           {/* Informações do Oficial */}
           <div className="absolute inset-0 bg-zinc-900 text-white p-4 flex flex-col justify-center items-center gap-4 translate-x-full transition-transform duration-300 group-hover:translate-x-0">
