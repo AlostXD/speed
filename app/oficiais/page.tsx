@@ -1,14 +1,15 @@
 import React from "react";
 import Navbar from "../../components/navbar";
 import prisma from "@/app/prisma";
+import { Oficiais } from "@prisma/client";
 
-export default async function Oficiais() {
-  const data = await prisma.oficiais.findMany({
+export default async function OficiaisPage() {
+  const data: Oficiais[]= await prisma.oficiais.findMany({
     where: {
     cargo: "Comando Speed"
     },
   });
-  
+
 return (
   <>
     <Navbar />
@@ -22,7 +23,7 @@ return (
         >
           {/* Foto do Oficial */}
           <div className="absolute inset-0 bg-cover bg-center transition-transform duration-300 group-hover:translate-x-[-100%]"
-            style={{ backgroundImage: `url(${data.image || '/default-image.png'})` }}
+            style={{ backgroundImage: `url(${data.image})` }}
           ></div>
 
           {/* Informações do Oficial */}
