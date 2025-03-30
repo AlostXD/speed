@@ -16,7 +16,7 @@ export default async function Oficiais() {
     gameId: number;
     numero: string;
     unidade: string;
-    image: string | null;
+    image?: string | null; // Made optional
   }
 
 return (
