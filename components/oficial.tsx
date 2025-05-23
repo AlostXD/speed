@@ -13,8 +13,6 @@ export default async function OficialCard({cargo}: props) {
     },
   });
 
-  console.log(data);
-
 return (
   <>
     <div className="flex flex-col items-center justify-center w-full m-auto gap-12 p-12">
