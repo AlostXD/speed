@@ -16,7 +16,7 @@ export default async function OficialCard({ cargoSpeed }: Props) {
   return (
     <div className="flex flex-col items-center justify-center w-full m-auto gap-12 p-12">
       <h1 className="text-4xl font-extrabold">{cargoSpeed}</h1>
-      <div className="flex items-center justify-center gap-12 p-4">
+      <div className="flex flex-col md:flex-row items-center justify-center gap-12 p-4">
         {data.map((data) => (
           <div key={data.id} className="flex flex-col items-center">
             {/* Nome do oficial acima do card */}
